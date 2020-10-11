@@ -20,7 +20,7 @@
 int main(void) {
 
     char a = 'h';
-    void *p;
+    char *p;        //Se modifica tipo de puntero, no se puede desreferenciar un puntero a VOID.
     p = &a;
     printf("a: %c\n", *p);
     
